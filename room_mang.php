@@ -117,11 +117,10 @@
         </div>
     </div>
 
-    <!-- Add Room Modal -->
+    <!-- Add Room -->
     <div id="addRoom" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -166,10 +165,9 @@
         </div>
     </div>
 
-    <!--Edit Room Modal -->
+    <!--Edit Room -->
     <div id="editRoom" class="modal fade" role="dialog">
         <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -218,7 +216,6 @@
     <!---customer details-->
     <div id="cutomerDetailsModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -228,12 +225,6 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <table class="table table-responsive table-bordered">
-                                <!-- <thead>
-                                <tr>
-                                    <th>Title</th>
-                                    <th>Detail</th>
-                                </tr>
-                                </thead> -->
                                 <tbody>
                                 <tr>
                                     <td><b>Customer Name</b></td>
@@ -273,11 +264,10 @@
     </div>
     <!---customer details ends here-->
 
-    <!-- Check In Modal -->
+    <!-- Check In -->
     <div id="checkIn" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -333,11 +323,10 @@
         </div>
     </div>
 
-    <!-- Check Out Modal-->
+    <!-- Check Out -->
     <div id="checkOut" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>

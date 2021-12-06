@@ -22,13 +22,6 @@ if (isset($_GET['room_id'])){
         </ol>
     </div><!--/.row-->
 
-    <!-- <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">Reservation</h1>
-        </div>
-    </div>/.row -->
-
-    
 
     <div class="row">
         <div class="col-lg-12">
@@ -63,13 +56,13 @@ if (isset($_GET['room_id'])){
 
                                 <div class="form-group col-lg-6">
                                     <label>Check In Date</label>
-                                    <input type="text" class="form-control" placeholder="mm/dd/yyyy" id="check_in_date" data-error="Select Check In Date" required>
+                                    <input type="text" class="form-control" placeholder="dd/mm/yyyy" id="check_in_date" data-error="Select Check In Date" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-lg-6">
                                     <label>Check Out Date</label>
-                                    <input type="text" class="form-control" placeholder="mm/dd/yyyy" id="check_out_date" data-error="Select Check Out Date" required>
+                                    <input type="text" class="form-control" placeholder="dd/mm/yyyy" id="check_out_date" data-error="Select Check Out Date" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -194,7 +187,7 @@ if (isset($_GET['room_id'])){
                         </div>
                     </div>
                     <div>
-                    <button type="submit" class="btn btn-lg btn-success pull-left " style="border-radius:0%">Submit</button>
+                    <button name = "login" type="submit" class="btn btn-lg btn-success pull-left " style="border-radius:0%">Submit</button>
                     </div>
                     
                 </div>
@@ -222,12 +215,7 @@ if (isset($_GET['room_id'])){
                     <div class="col-lg-12">
                         <div class="alert bg-success alert-dismissable" role="alert"><em class="fa fa-lg fa-check-circle">&nbsp;</em>Room Successfully Booked</div>
                         <table class="table table-striped table-bordered table-responsive">
-                            <!-- <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Detail</th>
-                            </tr>
-                            </thead> -->
+
                             <tbody>
                             <tr>
                                 <td><b>Customer Name</b></td>

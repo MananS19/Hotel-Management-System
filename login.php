@@ -1,14 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: vishal
- * Date: 10/23/17
- * Time: 1:45 PM
- */ ?>
-<!--
-    you can substitue the span of reauth email for a input with the email and
-    include the remember me checkbox
-    -->
 <html>
 <head>
     <link href="css/bootstrap.min.css" rel="stylesheet">
